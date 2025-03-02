@@ -92,8 +92,8 @@
   (linear-request (graphql-encode query)))
 
 ;; Tests
-(linear-query '(issues (nodes (id title))))
-;;(linear-query '(teams (nodes (id name))))
+;; (linear-query '(issues (nodes (id title))))
+;; (linear-query '(teams (nodes (id name))))
 
 ;; (linear-query '(nothing))  ;; throws a useful error
 
